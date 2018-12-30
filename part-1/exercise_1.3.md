@@ -7,8 +7,7 @@ To enter the bash:
 ```docker exec -it looper bash```
 
 To install curl:
-```apt-get update```
-```apt-get install curl```
+```apt-get update && apt-get install curl```
 
 To read a website:
 ```sh -c 'read -p "Enter website: " website; sleep 3; curl http://$website;'```
