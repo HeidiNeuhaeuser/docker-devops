@@ -3,6 +3,7 @@
 
 # MISC
 .RHistory
+*.html
 
 # FOLDERS
 */test
