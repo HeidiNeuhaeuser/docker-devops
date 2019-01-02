@@ -11,4 +11,4 @@ RUN apt-get install -y nodejs
 RUN npm install
 RUN nodejs -v && npm -v
 
-CMD npm start
+CMD API_URL=http://localhost:8000 npm start
