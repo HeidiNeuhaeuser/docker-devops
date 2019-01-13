@@ -5,7 +5,7 @@ WORKDIR /mydir
 RUN apt-get update && apt-get install -y python3
 RUN apt-get update && apt-get install -y python3-pip
 RUN pip3 install --upgrade pip
-RUN pip3 install numpy
+RUN pip3 install pandas
 
 ENV PATH /:$PATH
 
