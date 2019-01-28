@@ -1,11 +1,8 @@
 # MAC
 .DS_Store
 
-# MISC
-.RHistory
-*.html
-
 # FOLDERS
 */test
 *frontend-example-docker/
 *backend-example-docker/
+
